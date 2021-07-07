@@ -1,0 +1,7 @@
+.test-response{
+    border: solid 1px gray;
+    border-radius: 5px;
+    height: 100px;
+    overflow: auto;
+    width: 500px;
+}

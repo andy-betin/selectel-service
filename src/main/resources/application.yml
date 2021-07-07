@@ -1,0 +1,20 @@
+logging:
+  config: classpath:logback.xml
+
+server:
+  port: 8998
+
+spring:
+  web:
+    resources:
+      static-locations: classpath:/ui/static/
+  freemarker: # FREEMARKER
+    allow-request-override: false
+    cache: false
+    check-template-location: true
+    content-type: text/html
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+    suffix: .ftl
+    template-loader-path: classpath:/ui/
